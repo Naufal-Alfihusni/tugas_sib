@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3 Frameset - Membuat layout dengan frame</title>
+  </head>
+  <frameset rows="20%, 5%, 65%, *" border="1">
+    <frame src="components/header.html" />
+    <frame src="components/nav.html" name="menu" />
+    <frameset cols="30%, 40%, *">
+      <frame src="pages/left.html" name="content-left" />
+      <frame src="pages/home.html" name="main-content" />
+      <frame src="pages/right.html" name="content-right" />
+    </frameset>
+    <frame src="components/footer.html" name="footer" scrolling="no" />
+  </frameset>
+
+  <body></body>
+</html>

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #eef4ff 0%, #f6f7fb 100%);
+}
+
+.social-media-fieldset {
+  border: 2px solid #1d3557;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #fff;
+}
+
+.social-media-fieldset legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-list li {
+  margin-bottom: 10px;
+}
+
+.social-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 16px;
+  background-color: #edf5ff;
+  border: 2px solid #1d3557;
+  color: #1d3557;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.social-media-link:hover {
+  background-color: #1d3557;
+  color: #ffffff;
+  transform: translateY(-5px);
+}

@@ -1,0 +1,121 @@
+.login-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #3b82f6 100%);
+  padding: 30px 15px;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 22px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.25);
+  padding: 32px 28px;
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: #0f172a;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.brand-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #60a5fa);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.login-form .form-label {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.input-group-text {
+  background: #f3f6ff;
+  border: 1px solid #dfe7f3;
+  color: #2563eb;
+}
+
+.form-control {
+  border: 1px solid #dfe7f3;
+  background: #f9fbff;
+  border-left: none;
+  height: 48px;
+  border-radius: 0 10px 10px 0;
+  color: #111827;
+}
+
+.form-control:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 0.2rem rgba(96, 165, 250, 0.2);
+  background: #fff;
+}
+
+.form-check-input {
+  width: 16px;
+  height: 16px;
+  border-color: #93c5fd;
+  cursor: pointer;
+}
+
+.form-check-label {
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.forgot-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 12px 20px rgba(37, 99, 235, 0.3);
+  transition: 0.2s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .login-box {
+    padding: 24px 18px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
